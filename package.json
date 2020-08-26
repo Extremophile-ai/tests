@@ -1,0 +1,27 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nyc mocha -r esm app.test.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Extremophile-ai/tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Extremophile-ai/tests/issues"
+  },
+  "homepage": "https://github.com/Extremophile-ai/tests#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
+    "esm": "^3.2.25",
+    "mocha": "^8.1.2",
+    "nyc": "^15.1.0"
+  }
+}
